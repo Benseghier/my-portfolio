@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahia | AI Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Yahia, an AI Engineer designing intelligent systems and building scalable digital solutions.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Yahia<span>.AI</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-reveal">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Yahia</h1>
+                <h2 class="title"><div>AI Engineer</div></h2>
+                <p class="subtitle">Designing intelligent systems and building scalable digital solutions</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-reveal">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="confident-text">
+                        I am an AI Engineer driven by a passion for building intelligent systems and solving real-world problems. With a solid foundation in software engineering, networking, and system architecture, I focus on creating efficient, scalable, and well-structured solutions. I believe in discipline, continuous self-learning, and turning ideas into impactful digital products.
+                    </p>
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>Strong engineering mindset</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>High discipline & organization</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>Self-learning ability</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>Passion for automation & innovation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-reveal">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fa-brands fa-react"></i>
+                            <h4>Web Development</h4>
+                            <p>React, HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-code"></i>
+                            <h4>Programming</h4>
+                            <p>Python, C, Java</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h4>Mobile Dev</h4>
+                            <p>Flutter</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h4>Desktop Apps</h4>
+                            <p>Application Development</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-pen-nib"></i>
+                            <h4>UI/UX</h4>
+                            <p>Design Prototyping</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-network-wired"></i>
+                            <h4>Networking</h4>
+                            <p>Engineering & Architecture</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-brands fa-linux"></i>
+                            <h4>OS Fundamentals</h4>
+                            <p>Core system operations</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-database"></i>
+                            <h4>Data & Analysis</h4>
+                            <p>Management & Excel</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-gears"></i>
+                            <h4>System Design</h4>
+                            <p>Workflow Automation</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-bezier-curve"></i>
+                            <h4>Creative</h4>
+                            <p>Logo Design & Content Writing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category mt-4">
+                    <h3>Soft Skills</h3>
+                    <div class="skills-grid soft-skills">
+                        <div class="skill-card">
+                            <i class="fa-solid fa-brain"></i>
+                            <h4>Self-learning</h4>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-list-check"></i>
+                            <h4>Organization & Discipline</h4>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                            <h4>Problem-solving</h4>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                            <h4>Analytical thinking</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-reveal">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-type">AI System</div>
+                        <h3 class="project-title">Intelligent Prediction Engine</h3>
+                        <p class="project-description">
+                            A scalable machine learning pipeline designed to forecast data trends and automate decision-making processes with high accuracy, optimizing operational efficiency.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-type">Web Application</div>
+                        <h3 class="project-title">Modern React Dashboard</h3>
+                        <p class="project-description">
+                            A high-performance analytics platform built with modern React. Features real-time data visualization, secure user authentication, and a fully responsive clean UI.
+                        </p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS/HTML</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-type">Automation Tool</div>
+                        <h3 class="project-title">Workflow Optimization System</h3>
+                        <p class="project-description">
+                            A custom desktop application that integrates multiple software APIs to orchestrate complex daily tasks automatically, reducing manual workload by over 40%.
+                        </p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>API Integration</span>
+                            <span>System Architecture</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="experience section-reveal">
+            <div class="section-header">
+                <h2>Experience & Education</h2>
+                <div class="line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Present</div>
+                    <div class="timeline-content">
+                        <h3>State Engineer in Artificial Intelligence</h3>
+                        <h4>In Progress</h4>
+                        <p>Pursuing an advanced degree in AI engineering with a focus on intelligent systems, neural networks, and scalable architecture. Balancing academic rigor with continuous real-world project building.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Continuous</div>
+                    <div class="timeline-content">
+                        <h3>Self-Directed Engineering Projects</h3>
+                        <h4>Independent Development</h4>
+                        <p>Consistently expanding technical horizons through self-learning and building practical applications spanning AI, web development, networking, and automation to solve actual business and daily life problems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-reveal">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="line"></div>
+            </div>
+            <p class="contact-text">Currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            
+            <div class="contact-links">
+                <a href="mailto:contact@example.com" class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email Me</span>
+                    <small>contact@example.com</small>
+                </a>
+                <a href="https://www.linkedin.com/in/benseghier-yahia-dhiya-edine-0757242a7" target="_blank" rel="noopener noreferrer" class="contact-card linkedin-card">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                    <small>Professional Network</small>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                    <small>Code Repository</small>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Yahia - AI Engineer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
